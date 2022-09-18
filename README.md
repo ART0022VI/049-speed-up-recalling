@@ -1,7 +1,8 @@
 RU --
-убирает время ожидания когда создаёшь зомби (scp 049)
+Теперь 049 не нужно стоять и держать [E] для создания зомби. Просто нажимаешь на кнопку и идёшь по своим делам
+
 
 
 
 EU --
-removes the waiting time when creating zombies (scp 049)
+Now 049 doesn't need to stand and hold [E] to create zombies. Just press the button and go
