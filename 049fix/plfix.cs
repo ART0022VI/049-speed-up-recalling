@@ -28,8 +28,12 @@ namespace _049fix
         }
         public void Start(StartRecallEvent ev)
         {
+            Vector3 pos = ev.Scp049.Position;
+            Log.Info($"Начало: {pos}");
+            Timing.WaitForSeconds(5f);
+            Log.Info($"Конец: {ev.Scp049.Position}");
             ev.Target.Role = RoleType.Scp0492;
-            Timing.CallDelayed(0.5f, () => { ev.Target.Position = ev.Scp049.Position; });
+            Timing.CallDelayed(0.1f, () => { ev.Target.Position = pos; });
         }
     }
 }
